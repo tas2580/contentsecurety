@@ -1,0 +1,7 @@
+services:
+    tas2580.contentsecurety.listener:
+        class: tas2580\contentsecurety\event\listener
+        arguments:
+            - @config
+        tags:
+            - { name: event.listener }

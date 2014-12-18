@@ -1,0 +1,162 @@
+<!-- INCLUDE overall_header.html -->
+<h1>{L_ACP_CONTENT_SECURETY_TITLE}</h1>
+<p>{L_ACP_CONTENT_SECURETY_EXPLAIN}</p>
+
+<form method="post" action="{U_ACTION}">
+
+<fieldset>
+	<legend>{L_ACP_STYLE_POLICY}</legend>
+	<dl>
+		<dt><label for="style_self">{L_ACP_STYLE_SELF}</label><br /><span>{L_ACP_STYLE_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="style_self" name="style_self" value="1"{STYLE_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="style_inline">{L_ACP_STYLE_INLINE}</label><br /><span>{L_ACP_STYLE_INLINE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="style_inline" name="style_inline" value="1"{STYLE_INLINE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="style_none">{L_ACP_STYLE_NONE}</label><br /><span>{L_ACP_STYLE_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="style_none" name="style_none" value="1"{STYLE_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="style_url">{L_ACP_STYLE_URL}</label><br /><span>{L_ACP_STYLE_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="style_url" name="style_url" rows="5" cols="50">{STYLE_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_SCRIPT_POLICY}</legend>
+	<dl>
+		<dt><label for="script_self">{L_ACP_SCRIPT_SELF}</label><br /><span>{L_ACP_SCRIPT_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="script_self" name="script_self" value="1"{SCRIPT_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="script_inline">{L_ACP_SCRIPT_INLINE}</label><br /><span>{L_ACP_SCRIPT_INLINE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="script_inline" name="script_inline" value="1"{SCRIPT_INLINE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="script_eval">{L_ACP_SCRIPT_EVAL}</label><br /><span>{L_ACP_SCRIPT_EVAL_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="script_eval" name="script_eval" value="1"{SCRIPT_EVAL} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="script_none">{L_ACP_SCRIPT_NONE}</label><br /><span>{L_ACP_SCRIPT_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="script_none" name="script_none" value="1"{SCRIPT_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="script_url">{L_ACP_SCRIPT_URL}</label><br /><span>{L_ACP_SCRIPT_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="script_url" name="script_url" rows="5" cols="50">{SCRIPT_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_IMG_POLICY}</legend>
+	<dl>
+		<dt><label for="img_self">{L_ACP_IMG_SELF}</label><br /><span>{L_ACP_IMG_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="img_self" name="img_self" value="1"{IMG_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="img_none">{L_ACP_IMG_NONE}</label><br /><span>{L_ACP_IMG_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="img_none" name="img_none" value="1"{IMG_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="img_data">{L_ACP_IMG_DATA}</label><br /><span>{L_ACP_IMG_DATA_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="img_data" name="img_data" value="1"{IMG_DATA} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="img_url">{L_ACP_IMG_URL}</label><br /><span>{L_ACP_IMG_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="img_url" name="img_url" rows="5" cols="50">{IMG_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_OBJECT_POLICY}</legend>
+	<dl>
+		<dt><label for="object_self">{L_ACP_OBJECT_SELF}</label><br /><span>{L_ACP_OBJECT_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="object_self" name="object_self" value="1"{OBJECT_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="object_none">{L_ACP_OBJECT_NONE}</label><br /><span>{L_ACP_OBJECT_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="object_none" name="object_none" value="1"{OBJECT_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="object_url">{L_ACP_OBJECT_URL}</label><br /><span>{L_ACP_OBJECT_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="object_url" name="object_url" rows="5" cols="50">{OBJECT_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_MEDIA_POLICY}</legend>
+	<dl>
+		<dt><label for="media_self">{L_ACP_MEDIA_SELF}</label><br /><span>{L_ACP_MEDIA_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="media_self" name="media_self" value="1"{MEDIA_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="media_none">{L_ACP_MEDIA_NONE}</label><br /><span>{L_ACP_MEDIA_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="media_none" name="media_none" value="1"{MEDIA_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="media_url">{L_ACP_MEDIA_URL}</label><br /><span>{L_ACP_MEDIA_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="media_url" name="media_url" rows="5" cols="50">{MEDIA_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_FRAME_POLICY}</legend>
+	<dl>
+		<dt><label for="frame_self">{L_ACP_FRAME_SELF}</label><br /><span>{L_ACP_FRAME_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="frame_self" name="frame_self" value="1"{FRAME_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="frame_none">{L_ACP_FRAME_NONE}</label><br /><span>{L_ACP_FRAME_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="frame_none" name="frame_none" value="1"{FRAME_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="frame_url">{L_ACP_FRAME_URL}</label><br /><span>{L_ACP_FRAME_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="frame_url" name="frame_url" rows="5" cols="50">{FRAME_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_FONT_POLICY}</legend>
+	<dl>
+		<dt><label for="font_self">{L_ACP_FONT_SELF}</label><br /><span>{L_ACP_FONT_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="font_self" name="font_self" value="1"{FONT_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="font_none">{L_ACP_FONT_NONE}</label><br /><span>{L_ACP_FONT_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="font_none" name="font_none" value="1"{FONT_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="font_url">{L_ACP_FONT_URL}</label><br /><span>{L_ACP_FONT_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="font_url" name="font_url" rows="5" cols="50">{FONT_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_DEFAULT_POLICY}</legend>
+	<dl>
+		<dt><label for="default_self">{L_ACP_DEFAULT_SELF}</label><br /><span>{L_ACP_DEFAULT_SELF_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="default_self" name="default_self" value="1"{DEFAULT_SELF} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="default_none">{L_ACP_DEFAULT_NONE}</label><br /><span>{L_ACP_DEFAULT_NONE_EXPLAIN}</span></dt>
+		<dd><input type="checkbox" id="default_none" name="default_none" value="1"{DEFAULT_NONE} /></dd>
+	</dl>
+	<dl>
+		<dt><label for="default_url">{L_ACP_DEFAULT_URL}</label><br /><span>{L_ACP_DEFAULT_URL_EXPLAIN}</span></dt>
+		<dd><textarea id="default_url" name="default_url" rows="5" cols="50">{DEFAULT_URL}</textarea></dd>
+	</dl>
+</fieldset>
+
+<fieldset>
+	<legend>{L_ACP_SUBMIT}</legend>
+	<p class="submit-buttons">
+		<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+		<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+	</p>
+	{S_FORM_TOKEN}
+</fieldset>
+
+
+</form>
+<!-- INCLUDE overall_footer.html -->
