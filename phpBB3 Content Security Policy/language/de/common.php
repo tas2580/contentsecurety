@@ -19,7 +19,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_CONTENT_SECURETY_TITLE'	=> 'Content Security Policy',
-	'ACP_CONTENT_SECURETY_EXPLAIN'	=> 'Durch Content Security Policy kannst du dem Browser sagen von wo er bestimmte Ressourcen einbinden darf. So kannst du z.B. das einbinden von JavaScripts gennerel verbieten oder nur von bestimmten Domains zulassen. Für weitere Informationen siehe <a href="https://de.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Beachte das falsche Einstellungen dein Forum unbrauchbar machen können!</b>',
+	'ACP_CONTENT_SECURETY_EXPLAIN'	=> 'Durch Content Security Policy kannst du dem Browser sagen von wo er bestimmte Ressourcen einbinden darf. So kannst du z.B. das einbinden von JavaScripts generell verbieten oder nur von bestimmten Domains zulassen. Für weitere Informationen siehe <a href="https://de.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Beachte das falsche Einstellungen dein Forum unbrauchbar machen können!</b>',
 	'ACP_CSP_SAVED'					=> 'Die Einstellungen wurden geändert',
 
 	'ACP_STYLE_POLICY'				=> 'Style Einstellungen',
