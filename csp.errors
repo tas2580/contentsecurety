@@ -1,0 +1,1103 @@
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/stylesheet.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/common.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/print.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/content.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/links.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/buttons.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/cp.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/forms.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/colours.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/imageset.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/en/stylesheet.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/responsive.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/ext/tas2580/socialbuttons/styles/all/template/style.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://secure.gravatar.com
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/cron.php?cron_type=cron.task.core.tidy_sessions
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => 
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/template/forum_fn.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/template/ajax.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/assets/javascript/core.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/site_logo.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/bg_header.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icons_button.png
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_faq.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_acp.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_mcp.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_notification.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/sticky_read_mine.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_home.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_pm.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/bg_button.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_topic_latest.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_subscribe.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_delete_cookies.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_team.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_members.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/arrow_left.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => https://secure.gravatar.com
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/loading.gif
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_search.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 3
+            [column-number] => 29235
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [referrer] => http://10.2.0.10/phpbb3/index.php
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => 
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 3
+            [column-number] => 18721
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/print.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/stylesheet.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/common.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/links.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/content.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/buttons.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/cp.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/colours.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/imageset.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/forms.css
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/en/stylesheet.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/responsive.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/ext/tas2580/socialbuttons/styles/all/template/style.css?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => 
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://secure.gravatar.com
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/template/forum_fn.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/assets/javascript/core.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/template/ajax.js?assets_version=110
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/bg_header.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/site_logo.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icons_button.png
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_faq.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_acp.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_pm.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_notification.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_home.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_mcp.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/gradient.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/forum_read.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/bg_list.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_topic_latest.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_delete_cookies.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_members.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/loading.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_search.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 3
+            [column-number] => 29235
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => http://10.2.0.10/phpbb3/styles/prosilver/theme/images/icon_team.gif
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 2
+            [column-number] => 31073
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => 
+            [source-file] => http://10.2.0.10/phpbb3/assets/javascript/jquery.min.js?assets_version=110
+            [line-number] => 3
+            [column-number] => 18721
+            [status-code] => 200
+        )
+
+)
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://10.2.0.10/phpbb3/index.php
+            [referrer] => http://10.2.0.10/phpbb3/viewforum.php?f=2
+            [violated-directive] => default-src 'none'
+            [original-policy] => default-src 'none'; report-uri http://fileserver.cnu/phpbb3/ext/tas2580/content_security/report.php
+            [blocked-uri] => https://secure.gravatar.com
+            [status-code] => 200
+        )
+
+)
