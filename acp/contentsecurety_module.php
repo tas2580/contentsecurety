@@ -11,25 +11,25 @@ namespace tas2580\contentsecurety\acp;
 
 class contentsecurety_module
 {
-    public $u_action;
+	public $u_action;
 
-    public function main($id, $mode)
-    {
-        global $config, $user, $template, $request;
+	public function main($id, $mode)
+	{
+		global $config, $user, $template, $request;
 
-        $this->tpl_name = 'acp_contentsecurety_body';
-        $this->page_title = $user->lang('ACP_CONTENT_SECURETY_TITLE');
+		$this->tpl_name = 'acp_contentsecurety_body';
+		$this->page_title = $user->lang('ACP_CONTENT_SECURETY_TITLE');
 
 		add_form_key('acp_contentsecurety');
 
 		// Form is submitted
-		if($request->is_set_post('submit'))
+		if ($request->is_set_post('submit'))
 		{
 			if (!check_form_key('acp_contentsecurety'))
 			{
 				trigger_error($user->lang('FORM_INVALID') . adm_back_link($this->u_action), E_USER_WARNING);
 			}
-	
+
 			// Set the new settings to config
 			$config->set('tas2580_csp_style_self', $request->variable('style_self', 0));
 			$config->set('tas2580_csp_style_inline', $request->variable('style_inline', 0));
@@ -75,27 +75,27 @@ class contentsecurety_module
 
         $template->assign_vars(array(
 			'U_ACTION'			=> $this->u_action,
-			'STYLE_SELF'		=> ($config['tas2580_csp_style_self'] == 1) ? ' checked="checked"' : '',
-			'STYLE_INLINE'		=> ($config['tas2580_csp_style_inline'] == 1) ? ' checked="checked"' : '',
-			'STYLE_NONE'		=> ($config['tas2580_csp_style_none'] == 1) ? ' checked="checked"' : '',
+			'STYLE_SELF'			=> ($config['tas2580_csp_style_self'] == 1) ? ' checked="checked"' : '',
+			'STYLE_INLINE'			=> ($config['tas2580_csp_style_inline'] == 1) ? ' checked="checked"' : '',
+			'STYLE_NONE'			=> ($config['tas2580_csp_style_none'] == 1) ? ' checked="checked"' : '',
 			'STYLE_URL'			=> $config['tas2580_csp_style_url'],
 
-			'SCRIPT_SELF'		=> ($config['tas2580_csp_script_self'] == 1) ? ' checked="checked"' : '',
-			'SCRIPT_INLINE'		=> ($config['tas2580_csp_script_inline'] == 1) ? ' checked="checked"' : '',
-			'SCRIPT_EVAL'		=> ($config['tas2580_csp_script_eval'] == 1) ? ' checked="checked"' : '',
-			'SCRIPT_NONE'		=> ($config['tas2580_csp_script_none'] == 1) ? ' checked="checked"' : '',
-			'SCRIPT_URL'		=> $config['tas2580_csp_script_url'],
+			'SCRIPT_SELF'			=> ($config['tas2580_csp_script_self'] == 1) ? ' checked="checked"' : '',
+			'SCRIPT_INLINE'			=> ($config['tas2580_csp_script_inline'] == 1) ? ' checked="checked"' : '',
+			'SCRIPT_EVAL'			=> ($config['tas2580_csp_script_eval'] == 1) ? ' checked="checked"' : '',
+			'SCRIPT_NONE'			=> ($config['tas2580_csp_script_none'] == 1) ? ' checked="checked"' : '',
+			'SCRIPT_URL'			=> $config['tas2580_csp_script_url'],
 
-			'OBJECT_SELF'		=> ($config['tas2580_csp_object_self'] == 1) ? ' checked="checked"' : '',
-			'OBJECT_NONE'		=> ($config['tas2580_csp_object_none'] == 1) ? ' checked="checked"' : '',
-			'OBJECT_URL'		=> $config['tas2580_csp_object_url'],
+			'OBJECT_SELF'			=> ($config['tas2580_csp_object_self'] == 1) ? ' checked="checked"' : '',
+			'OBJECT_NONE'			=> ($config['tas2580_csp_object_none'] == 1) ? ' checked="checked"' : '',
+			'OBJECT_URL'			=> $config['tas2580_csp_object_url'],
 
-			'MEDIA_SELF'		=> ($config['tas2580_csp_media_self'] == 1) ? ' checked="checked"' : '',
-			'MEDIA_NONE'		=> ($config['tas2580_csp_media_none'] == 1) ? ' checked="checked"' : '',
+			'MEDIA_SELF'			=> ($config['tas2580_csp_media_self'] == 1) ? ' checked="checked"' : '',
+			'MEDIA_NONE'			=> ($config['tas2580_csp_media_none'] == 1) ? ' checked="checked"' : '',
 			'MEDIA_URL'			=> $config['tas2580_csp_media_url'],
 
-			'FRAME_SELF'		=> ($config['tas2580_csp_frame_self'] == 1) ? ' checked="checked"' : '',
-			'FRAME_NONE'		=> ($config['tas2580_csp_frame_none'] == 1) ? ' checked="checked"' : '',
+			'FRAME_SELF'			=> ($config['tas2580_csp_frame_self'] == 1) ? ' checked="checked"' : '',
+			'FRAME_NONE'			=> ($config['tas2580_csp_frame_none'] == 1) ? ' checked="checked"' : '',
 			'FRAME_URL'			=> $config['tas2580_csp_frame_url'],
 
 			'FONT_SELF'			=> ($config['tas2580_csp_font_self'] == 1) ? ' checked="checked"' : '',
@@ -105,14 +105,11 @@ class contentsecurety_module
 			'IMG_SELF'			=> ($config['tas2580_csp_img_self'] == 1) ? ' checked="checked"' : '',
 			'IMG_NONE'			=> ($config['tas2580_csp_img_none'] == 1) ? ' checked="checked"' : '',
 			'IMG_DATA'			=> ($config['tas2580_csp_img_data'] == 1) ? ' checked="checked"' : '',
-			'IMG_URL'			=> $config['tas2580_csp_img_url'],
+			'IMG_URL'				=> $config['tas2580_csp_img_url'],
 
 			'DEFAULT_SELF'		=> ($config['tas2580_csp_default_self'] == 1) ? ' checked="checked"' : '',
 			'DEFAULT_NONE'		=> ($config['tas2580_csp_default_none'] == 1) ? ' checked="checked"' : '',
-			'DEFAULT_URL'		=> $config['tas2580_csp_default_url'],
-
-
+			'DEFAULT_URL'			=> $config['tas2580_csp_default_url'],
         ));
     }
 }
-

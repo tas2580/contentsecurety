@@ -56,7 +56,6 @@ class release_0_1_0_data extends \phpbb\db\migration\migration
 			array('config.add', array('tas2580_csp_default_none', '0')),
 			array('config.add', array('tas2580_csp_default_url', '')),
 
-
 			// Add ACP module
 			array('module.add', array(
 				'acp',

@@ -53,37 +53,37 @@ class listener implements EventSubscriberInterface
 	* @access public
 	*/
 	public function output_header($event)
-	{	
+	{
 		$types = array('style', 'script', 'object', 'media', 'frame', 'font', 'img', 'default');
 
-		foreach($types as $type)
+		foreach ($types as $type)
 		{
 			$src[$type] = '';
-			if($this->config['tas2580_csp_' . $type . '_self'])
+			if ($this->config['tas2580_csp_' . $type . '_self'])
 			{
 				$src[$type] .= " 'self'";
 			}
-			if(isset($this->config['tas2580_csp_' . $type . '_inline']) && $this->config['tas2580_csp_' . $type . '_inline'])
+			if (isset($this->config['tas2580_csp_' . $type . '_inline']) && $this->config['tas2580_csp_' . $type . '_inline'])
 			{
 				$src[$type] .= " 'unsafe-inline'";
 			}
-			if(isset($this->config['tas2580_csp_' . $type . '_eval']) && $this->config['tas2580_csp_' . $type . '_eval'])
+			if (isset($this->config['tas2580_csp_' . $type . '_eval']) && $this->config['tas2580_csp_' . $type . '_eval'])
 			{
 				$src[$type] .= " 'unsafe-eval'";
 			}
-			if($this->config['tas2580_csp_' . $type . '_url'])
+			if ($this->config['tas2580_csp_' . $type . '_url'])
 			{
 				$urls = preg_split("#\n#", $this->config['tas2580_csp_' . $type . '_url']);
-				foreach($urls as $url)
+				foreach ($urls as $url)
 				{
 					$src[$type] .= ' ' . $url;
-				}	
+				}
 			}
-			if(isset($this->config['tas2580_csp_' . $type . '_data']) && $this->config['tas2580_csp_' . $type . '_data'])
+			if (isset($this->config['tas2580_csp_' . $type . '_data']) && $this->config['tas2580_csp_' . $type . '_data'])
 			{
 				$src[$type] .= ' data:';
 			}
-			if($this->config['tas2580_csp_' . $type . '_none'])
+			if ($this->config['tas2580_csp_' . $type . '_none'])
 			{
 				$src[$type] = " 'none'";
 			}
@@ -91,7 +91,7 @@ class listener implements EventSubscriberInterface
 		}
 
 		header("Content-Security-Policy:{$src['style']} {$src['script']} {$src['object']} {$src['media']} {$src['frame']} {$src['font']} {$src['img']} {$src['default']}");
-		header("X-Content-Security-Policy:{$src['style']} {$src['script']} {$src['object']} {$src['media']} {$src['frame']} {$src['font']} {$src['img']} {$src['default']}");	
+		header("X-Content-Security-Policy:{$src['style']} {$src['script']} {$src['object']} {$src['media']} {$src['frame']} {$src['font']} {$src['img']} {$src['default']}");
 		header("X-WebKit-CSP:{$src['style']} {$src['script']} {$src['object']} {$src['media']} {$src['frame']} {$src['font']} {$src['img']} {$src['default']}");
 
 
@@ -108,13 +108,13 @@ class listener implements EventSubscriberInterface
 	* @return null
 	* @access public
 	*/
-    public function load_language_on_setup($event)
-    {
-        $lang_set_ext = $event['lang_set_ext'];
-        $lang_set_ext[] = array(
-            'ext_name' => 'tas2580/contentsecurety',
-            'lang_set' => 'common',
-        );
-        $event['lang_set_ext'] = $lang_set_ext;
-    }
+	public function load_language_on_setup($event)
+	{
+		$lang_set_ext = $event['lang_set_ext'];
+		$lang_set_ext[] = array(
+			'ext_name'	=> 'tas2580/contentsecurety',
+			'lang_set'		=> 'common',
+		);
+		$event['lang_set_ext'] = $lang_set_ext;
+	}
 }
