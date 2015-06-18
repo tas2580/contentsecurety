@@ -94,7 +94,6 @@ class listener implements EventSubscriberInterface
 		header("X-Content-Security-Policy:{$src['style']} {$src['script']} {$src['object']} {$src['media']} {$src['frame']} {$src['font']} {$src['img']} {$src['default']}");
 		header("X-WebKit-CSP:{$src['style']} {$src['script']} {$src['object']} {$src['media']} {$src['frame']} {$src['font']} {$src['img']} {$src['default']}");
 
-
 	//	global $phpbb_root_path;
 	//	$report_uri = generate_board_url() . '/ext/tas2580/contentsecurety/report.php';
 	//	header("Content-Security-Policy-Report-Only: default-src 'none'; report-uri {$report_uri}");
