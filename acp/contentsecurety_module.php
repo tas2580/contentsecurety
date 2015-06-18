@@ -70,10 +70,8 @@ class contentsecurety_module
 			trigger_error($user->lang('ACP_CSP_SAVED') . adm_back_link($this->u_action));
 		}
 
-
-        // Send the curent settings to template
-
-        $template->assign_vars(array(
+		// Send the curent settings to template
+		$template->assign_vars(array(
 			'U_ACTION'			=> $this->u_action,
 			'STYLE_SELF'			=> ($config['tas2580_csp_style_self'] == 1) ? ' checked="checked"' : '',
 			'STYLE_INLINE'			=> ($config['tas2580_csp_style_inline'] == 1) ? ' checked="checked"' : '',
@@ -110,6 +108,6 @@ class contentsecurety_module
 			'DEFAULT_SELF'		=> ($config['tas2580_csp_default_self'] == 1) ? ' checked="checked"' : '',
 			'DEFAULT_NONE'		=> ($config['tas2580_csp_default_none'] == 1) ? ' checked="checked"' : '',
 			'DEFAULT_URL'			=> $config['tas2580_csp_default_url'],
-        ));
-    }
+		));
+	}
 }
