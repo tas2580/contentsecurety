@@ -19,7 +19,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_CONTENT_SECURETY_TITLE'			=> 'Content Security Policy',
-	'ACP_CONTENT_SECURETY_EXPLAIN'		=> 'Through content security policy you can tell the browser where it may involve certain resources. So you can, for example, Embed the JavaScripts gennerel prohibit or allow only certain domains. For further information see <a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Note that incorrect settings can make your forum unusable!</b>',
+	'ACP_CONTENT_SECURETY_EXPLAIN'		=> 'Through content security policy you can tell the browser where it may involve certain resources. So you can, for example, Embed the JavaScripts general prohibit or allow only certain domains. For further information see <a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Note that incorrect settings can make your forum unusable!</b>',
 	'ACP_CSP_SAVED'						=> 'The settings have been changed',
 
 	'ACP_STYLE_POLICY'						=> 'Style settings',
@@ -88,10 +88,10 @@ $lang = array_merge($lang, array(
 
 	'ACP_DEFAULT_POLICY'					=> 'Default settings',
 	'ACP_DEFAULT_SELF'					=> 'Own Domain',
-	'ACP_DEFAULT_SELF_EXPLAIN'				=> 'Allow recorces from your own domain.',
+	'ACP_DEFAULT_SELF_EXPLAIN'				=> 'Allow resources from your own domain.',
 	'ACP_DEFAULT_NONE'					=> 'Prohibit all',
 	'ACP_DEFAULT_NONE_EXPLAIN'				=> 'All generally forbid (not recommended).',
 	'ACP_DEFAULT_URL'						=> 'Approved URLs',
-	'ACP_DEFAULT_URL_EXPLAIN'				=> 'Give URLs (one per line) a of which are recorces allowed. With * all URLs may be allowed.',
+	'ACP_DEFAULT_URL_EXPLAIN'				=> 'Give URLs (one per line) a of which are resources allowed. With * all URLs may be allowed.',
 
 ));
