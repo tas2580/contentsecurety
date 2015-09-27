@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_CONTENT_SECURETY_TITLE'			=> 'Contenu de la politique de sécurité',
-	'ACP_CONTENT_SECURETY_EXPLAIN'		=> 'Au moyen du contenu de la politique de sécurité, il est possible d’indiquer au navigateur quelles ressources solliciter. Ainsi il est possible par exemple, d’interdire de manière globale le language JavaScript ou d’autoriser uniquement certains noms de domaine. Pour davantage d’informations, consulter le site Web : <a href="https://fr.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Merci de noter que des paramètres incorrects peuvent rendre votre forum inutilisable !</b>',
+	'ACP_CONTENT_SECURETY_EXPLAIN'		=> 'Au moyen du contenu de la politique de sécurité, il est possible d’indiquer au navigateur quelles ressources solliciter. Ainsi il est possible par exemple, d’interdire de manière globale le langage JavaScript ou d’autoriser uniquement certains noms de domaine. Pour davantage d’informations, consulter le site Web : <a href="https://fr.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Merci de noter que des paramètres incorrects peuvent rendre votre forum inutilisable !</b>',
 	'ACP_CSP_SAVED'						=> 'Les paramètres ont été modifiés.',
 
 	'ACP_STYLE_POLICY'						=> 'Paramètres du style',
@@ -55,15 +55,15 @@ $lang = array_merge($lang, array(
 
 	'ACP_SCRIPT_POLICY'					=> 'Paramètres des scripts',
 	'ACP_SCRIPT_SELF'						=> 'Depuis son propre nom de domaine',
-	'ACP_SCRIPT_SELF_EXPLAIN'				=> 'Permet d’utiliser uniquement le language Javascript depuis son propre nom de domaine.',
+	'ACP_SCRIPT_SELF_EXPLAIN'				=> 'Permet d’utiliser uniquement le langage Javascript depuis son propre nom de domaine.',
 	'ACP_SCRIPT_INLINE'						=> 'Balise « onclick » dans la ligne',
 	'ACP_SCRIPT_INLINE_EXPLAIN'				=> 'Permet d’utiliser directement les balises HTML (onclick="…").',
 	'ACP_SCRIPT_EVAL'						=> 'Fonction JavaScript eval()',
-	'ACP_SCRIPT_EVAL_EXPLAIN'				=> 'Permet d’utiliser la fonction eval() du language JavaScript.',
+	'ACP_SCRIPT_EVAL_EXPLAIN'				=> 'Permet d’utiliser la fonction eval() du langage JavaScript.',
 	'ACP_SCRIPT_NONE'						=> 'Interdire JavaScript',
-	'ACP_SCRIPT_NONE_EXPLAIN'				=> 'Permet d’interdire de manière globale le language JavaScript (non recommandé).',
+	'ACP_SCRIPT_NONE_EXPLAIN'				=> 'Permet d’interdire de manière globale le langage JavaScript (non recommandé).',
 	'ACP_SCRIPT_URL'						=> 'Adresses URL autorisées',
-	'ACP_SCRIPT_URL_EXPLAIN'				=> 'Permet d’autoriser le language JavaScript depuis les adresses URL indiquées (une par ligne). Avec le caractère « * » toutes les adresses URL sont autorisées.',
+	'ACP_SCRIPT_URL_EXPLAIN'				=> 'Permet d’autoriser le langage JavaScript depuis les adresses URL indiquées (une par ligne). Avec le caractère « * » toutes les adresses URL sont autorisées.',
 
 	'ACP_IMG_POLICY'						=> 'Paramètres des images',
 	'ACP_IMG_SELF'							=> 'Depuis son propre nom de domaine',
