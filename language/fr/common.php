@@ -39,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_CONTENT_SECURETY_TITLE'			=> 'Contenu de la politique de sécurité',
-	'ACP_CONTENT_SECURETY_EXPLAIN'		=> 'Au moyen du contenu de la politique de sécurité, il est possible d’indiquer au navigateur quelles ressources solliciter. Ainsi il est possible par exemple, d’interdire de manière globale le langage JavaScript ou d’autoriser uniquement certains noms de domaine. Pour davantage d’informations, consulter le site Web : <a href="https://fr.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Merci de noter que des paramètres incorrects peuvent rendre votre forum inutilisable !</b>',
+	'ACP_CONTENT_SECURETY_TITLE'			=> 'Politique de sécurité du contenu',
+	'ACP_CONTENT_SECURETY_EXPLAIN'		=> 'Au moyen de la politique de sécurité du contenu, il est possible d’indiquer au navigateur quelles ressources solliciter. Ainsi il est possible par exemple, d’interdire de manière globale le langage JavaScript ou d’autoriser uniquement certains noms de domaine. Pour davantage d’informations, consulter le site Web : <a href="https://fr.wikipedia.org/wiki/Content_Security_Policy">Wikipedia</a>.<br /><b>Merci de noter que des paramètres incorrects peuvent rendre votre forum inutilisable !</b>',
 	'ACP_CSP_SAVED'						=> 'Les paramètres ont été modifiés.',
 
 	'ACP_STYLE_POLICY'						=> 'Paramètres du style',
